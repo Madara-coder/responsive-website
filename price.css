@@ -1,0 +1,317 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    background-color: hsl(0, 0%, 98%);
+}
+
+
+/* Designing the head area */
+
+.head-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head-area h2 {
+    margin-top: 50px;
+    font-size: 28px;
+    font-weight: 600;
+    color: gray;
+}
+
+
+/* Top area */
+
+.top {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.top li {
+    font-size: 18px;
+    list-style: none;
+    text-decoration: none;
+    color: gray;
+}
+
+
+/* Button like area designing */
+
+.button {
+    height: 20px;
+    width: 40px;
+    border: 0px;
+    border-radius: 15px;
+    background: linear-gradient(to bottom right, rgb(157, 156, 255), rebeccapurple);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+
+/* small circle */
+
+.circle {
+    height: 16px;
+    width: 16px;
+    border-radius: 100%;
+    background-color: white;
+    margin-right: 3px;
+}
+
+.button:hover .circle {
+    margin-right: 20.5px;
+    transition: 0.5s;
+}
+
+
+/* BANNER AREA */
+
+.banner-area {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+/* left part */
+
+.left-side {
+    margin-top: 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: white;
+    height: 390px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.left-side h4 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: gray;
+}
+
+.left-side h1 {
+    margin-top: 20px;
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+
+.left-side span {
+    font-size: 30px;
+}
+
+.left-side p {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 18px;
+    color: gray;
+    border-top: 1px solid gray;
+}
+
+.haha1 {
+    border-bottom: 1px solid gray;
+}
+
+.learn-more1 {
+    margin-top: 25px;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: bold;
+    width: 90%;
+    background: linear-gradient(to bottom right, rgb(157, 156, 255), rebeccapurple);
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.learn-more1:hover {
+    background: linear-gradient(to bottom right, rgb(125, 124, 207), rebeccapurple);
+}
+
+
+/* RIgth-part */
+
+.right-side {
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: white;
+    height: 390px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.right-side h4 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: gray;
+}
+
+.right-side h1 {
+    margin-top: 20px;
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+
+.right-side span {
+    font-size: 30px;
+}
+
+.right-side p {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 18px;
+    color: gray;
+    border-top: 1px solid gray;
+}
+
+.haha3 {
+    border-bottom: 1px solid gray;
+}
+
+.learn-more3 {
+    margin-top: 25px;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: bold;
+    width: 90%;
+    background: linear-gradient(to bottom right, rgb(157, 156, 255), rebeccapurple);
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.learn-more3:hover {
+    background: linear-gradient(to bottom right, rgb(125, 124, 207), rebeccapurple);
+}
+
+
+/* Middle part */
+
+.middle {
+    margin-top: 0px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, rgb(157, 156, 255), rebeccapurple);
+    height: 450px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.middle h4 {
+    margin-top: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+.middle h1 {
+    margin-top: 20px;
+    font-size: 46px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.middle span {
+    font-size: 30px;
+}
+
+.middle p {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 18px;
+    color: white;
+    border-top: 1px solid white;
+}
+
+.haha2 {
+    border-bottom: 1px solid white;
+}
+
+.learn-more2 {
+    margin-top: 25px;
+    color: rebeccapurple;
+    background-color: white;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: bold;
+    width: 90%;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.learn-more2:hover {
+    background-color: rgb(236, 232, 252);
+}
+
+
+/* MAKING THE WEBSITE RESPONSIVE */
+
+
+/* FOR THE DESKTOP AND DEVICES HAVING BIG SCREENS NORMAL CODE WILL EXECUTE */
+
+
+/* FOR THE TABLETS AND MEDIUM SCREENS */
+
+@media screen and (max-width: 992px) {
+    .container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-area {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .middle {
+        margin-top: 30px;
+        height: 390px;
+    }
+    .middle h4 {
+        margin-top: 20px;
+    }
+}
+
+
+/* FOR THE MOBILE PHONES  */
+
+@media screen and (max-width:576px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-area {
+        display: flex;
+        flex-direction: column;
+    }
+    .middle {
+        margin-top: 30px;
+        height: 390px;
+    }
+    .middle h4 {
+        margin-top: 20px;
+    }
+}
