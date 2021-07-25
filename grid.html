@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid
+
+    </title>
+    <style>
+        .container {
+            color: white;
+            font-size: 24px;
+            font-weight: 600;
+            display: grid;
+            /* For 5 columns with auto  */
+            grid-template-columns: repeat(5, auto);
+            grid-gap: 10px;
+        }
+        
+        .item {
+            background-color: red;
+            padding: 50px 10px;
+            display: grid;
+            place-content: center;
+        }
+        
+        .item:nth-child(1) {
+            grid-column: span 2;
+            background-color: maroon;
+        }
+        
+        .item:nth-child(2) {
+            grid-column: span 3;
+            grid-row: span 2;
+            background-color: mediumorchid;
+        }
+        
+        .item:nth-child(3) {
+            grid-column: span 2;
+            background-color: lightgreen;
+        }
+        
+        .item:nth-child(4) {
+            grid-column: span 2;
+            background-color: teal;
+        }
+        
+        .item:nth-child(5) {
+            background-color: green;
+            grid-column: span 1;
+        }
+        
+        .item:nth-child(6) {
+            grid-column: span 2;
+            background-color: lightblue;
+        }
+        
+        .item:nth-child(7) {
+            grid-column: span 5;
+            background-color: rgb(124, 35, 124);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">5</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+        <div class="item">11</div>
+    </div>
+</body>
+
+</html>
